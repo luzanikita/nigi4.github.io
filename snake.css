@@ -1,0 +1,29 @@
+canvas {
+    z-index: 0;
+    position:static;
+    display: block;
+    margin: 100px auto;
+}
+
+video {
+    z-index: 1;
+    position: relative;
+    width: 400px;
+    display: none;
+    margin: -685px auto;
+}
+
+img {
+    z-index: 1;
+    position: relative;
+    width: 300px;
+    display: none;
+    margin: -600px auto;
+}
+
+body {
+    background-color: #5f1e71;
+    background-image: url(mlg_background_by_scorpopro-dah5b8r.jpg);
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
